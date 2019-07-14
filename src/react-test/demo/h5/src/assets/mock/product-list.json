@@ -1,0 +1,132 @@
+{
+  "resultCode": 0,
+  "resultMsg": "请求成功",
+  "data": {
+    "pageNum": 1,
+    "pageSize": 10,
+    "pages": 1,
+    "total": 20,
+    "list": [
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 1
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 62
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 49
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 219
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 229
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 309
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 263
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 535
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 148
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 249
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 22
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 392
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 618
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 415
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 1101
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 704
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 1586
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 1621
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 385
+      },
+      {
+        "name": "商品名称",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "price": 5488,
+        "id": 123
+      }
+    ]
+  }
+}

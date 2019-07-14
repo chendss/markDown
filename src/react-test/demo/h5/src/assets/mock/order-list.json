@@ -1,0 +1,232 @@
+{
+  "resultCode": 0,
+  "resultMsg": "请求成功",
+  "data": {
+    "pageNum": 1,
+    "pageSize": 10,
+    "pages": 1,
+    "total": 20,
+    "list": [
+      {
+        "orderCode": 1915959222559,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1763265110458,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1475367941269,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1576571722192,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1021941296621,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1142824017718,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1645826758978,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1105480623788,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1165458986564,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1744033999337,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1482148043485,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1739698466050,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1497800436506,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1483220663632,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1716053211866,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1127197614135,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1161405771299,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1158315316436,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1513362110936,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      },
+      {
+        "orderCode": 1586923389543,
+        "status": "交易成功",
+        "img": "/assets/imgs/productList/product-demo.jpg",
+        "name": "商品名称",
+        "price": 5488,
+        "number": 1,
+        "consignee": "张先生",
+        "time": "2019-05-24",
+        "totalPrice": 5488
+      }
+    ]
+  }
+}

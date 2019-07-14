@@ -1,0 +1,125 @@
+/**
+ * @(#)2019/7/1.
+ * 商品详情-样式部分
+ * @author 飞光
+ *
+ * Copyright (c) 2019, YUNXI. All rights reserved.
+ * YUNXI PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ */
+
+.product-detail-box {
+
+  // 基于flex布局-水平垂直居中
+  .base-flex-center {
+    align-items: center;
+    justify-content: center;
+  }
+
+  // 基于flex布局-纵向排版
+  .base-flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  :global {
+    .base-flex-column;
+
+    .product-detail-content {
+      .base-flex-column;
+      margin-bottom: 94px;
+
+      img {
+        max-width: 100%;
+        min-height: 750px;
+      }
+
+      // 价格盒子的样式
+      .price-box {
+        @height: 72px;
+
+        top: 4px;
+        display: flex;
+        color: #ff0036;
+        padding: 0 20px;
+        height: @height;
+        font-size: 48px;
+        position: relative;
+        align-items: center;
+        line-height: @height;
+        background-color: #fff;
+
+        span {
+          @pading: 20px;
+          @line-height: 24px;
+
+          color: #fff;
+          font-size: 24px;
+          padding: 2px 4px;
+          .base-flex-center;
+          margin-left: 20px;
+          display: inline-flex;
+          line-height: @line-height;
+          background-color: #fb6878;
+          height: @line-height+ (@line-height - @pading) * 2;
+        }
+      }
+
+      .product-name-box {
+        color: #051b28;
+        font-size: 28px;
+        overflow: hidden;
+        line-height: 40px;
+        max-height: 126px;
+        padding: 6px 20px 0;
+        display: flex;
+        word-break: break-all;
+        -webkit-line-clamp: 3;
+        background-color: #fff;
+        -webkit-box-pack: center;
+        -webkit-box-orient: vertical;
+        justify-content: flex-start;
+
+        .name,
+        .brand {
+          margin: 20px 0 20px 0;
+        }
+
+        .brand {
+          margin-left: auto;
+        }
+
+        .name {
+          margin-right: auto;
+        }
+      }
+
+      .module-adds {
+        color: #999;
+        display: flex;
+        padding: 0 20px;
+        font-size: 24px;
+        line-height: 60px;
+        background-color: #fff;
+        justify-content: space-between;
+
+        .postage,
+        .sales,
+        .delivery {
+          white-space: nowrap;
+          display: inline-flex;
+        }
+      }
+    }
+
+    .btn {
+      left: 0;
+      bottom: 0;
+      z-index: 10;
+      width: 100%;
+      height: 94px;
+      display: flex;
+      .base-flex-center;
+      position: fixed !important;
+    }
+  }
+}

@@ -1,0 +1,153 @@
+/**
+ * @(#)2019/7/1.
+ * 确认订单-样式部分
+ * @author 飞光
+ *
+ * Copyright (c) 2019, YUNXI. All rights reserved.
+ * YUNXI PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ */
+
+
+.confirmOrder-box {
+	@fixed-heihgt: 94px;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: @fixed-heihgt;
+	.border-radius {
+		border-radius: 24px;
+	}
+	.confirmOrder-name {
+		margin-bottom: 40px;
+		.border-radius;
+		.am-input-label {
+			font-size: 32px;
+			color: rgb(51, 51, 51);
+		}
+		.am-input-control {
+			display: inline-flex;
+			align-items: center;
+			input {
+				&::placeholder {
+					font-size: 36px;
+				}
+			}
+		}
+	}
+	.confirmOrder-base-box {
+		background: #fff;
+		display: flex;
+		flex-direction: column;
+		padding: 24px 24px 24px;
+		.border-radius;
+		.base-header {
+			display: flex;
+			.img {
+				min-width: 180px;
+				width: 180px;
+				height: 180px;
+				margin-right: 24px;
+				border-radius: 6px;
+				display: inline-flex;
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.product-info-detail {
+				display: inline-flex;
+				margin-left: auto;
+				width: 100%;
+				height: 100%;
+				color: rgb(51, 51, 51);
+				.product-title {
+					text-overflow: ellipsis;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+					line-height: 32px;
+					font-size: 28px;
+				}
+				.product-price-box {
+					margin-left: auto;
+					font-size: 24px;
+					p {
+						text-align: right;
+					}
+					.price {
+						font-size: 26px;
+					}
+					.number {
+						color: rgb(153, 153, 153);
+					}
+				}
+			}
+		}
+		.product-action {
+			display: flex;
+			flex-direction: column;
+			.label {
+				white-space: pre-wrap;
+				line-height: 32px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: inline-flex;
+				height: 32px;
+				// width: 204px;
+				justify-content: flex-end;
+			}
+			.row {
+				display: flex;
+				align-items: center;
+				height: 80px;
+			}
+			.confirmOrder-number {
+				.row;
+				.number-action {
+					display: flex;
+					margin-left: auto;
+					img {
+						width: 50px;
+						height: 50px;
+					}
+					.number-input {
+						display: inline-flex;
+						text-align: center;
+						width: 70px;
+						background-color: rgba(255, 255, 255, 0);
+						padding: 0;
+					}
+				}
+			}
+			.confirmOrder-distribution {
+				display: flex;
+				.row;
+				.label {
+					margin-right: 22px;
+				}
+				.distribution-content {
+					overflow: hidden;
+					text-overflow: ellipsis;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 3;
+					line-height: 32px;
+					color: rgb(153, 153, 153);
+					visibility: visible;
+					margin-left: auto;
+				}
+			}
+		}
+	}
+	.btn {
+		position: fixed !important;
+		bottom: 0;
+		left: 0;
+		z-index: 10;
+		width: 100%;
+		display: flex;
+		height: @fixed-heihgt;
+		align-items: center;
+		justify-content: center;
+	}
+}

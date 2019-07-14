@@ -1,0 +1,74 @@
+/**
+ * @(#)2019/7/1.
+ * 商品列表-样式部分
+ * @author 飞光
+ *
+ * Copyright (c) 2019, YUNXI. All rights reserved.
+ * YUNXI PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ */
+
+.product-list-box {
+  @navHeight: 80px;
+  margin-bottom: @navHeight;
+
+  :global {
+    @background: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    background: @background;
+
+    .product-box {
+      @border-line: 2px solid #e0e1e1;
+      width: 50%;
+      min-height: 160px;
+      margin-left: -1px;
+      padding: 24px 24px;
+      display: inline-flex;
+      flex-direction: column;
+      background: @background;
+      border-left: @border-line;
+      border-bottom: @border-line;
+
+      img {
+        width: 100%;
+      }
+
+      p {
+        white-space: nowrap;
+      }
+
+      .placeholder-img {
+        width: 100%;
+
+      }
+
+      .brand-info-box {
+        display: flex;
+
+        .price,
+        .brand {
+          @height: 24px;
+          color: #eb5211;
+          height: @height;
+          font-size: 28px;
+          line-height: @height;
+          margin: 24px 0 12px 0;
+        }
+
+        .brand {
+          margin-left: auto;
+        }
+
+        .price {
+          margin-right: auto;
+        }
+
+      }
+
+      .name {
+        color: black;
+        font-size: 24px;
+      }
+    }
+  }
+}

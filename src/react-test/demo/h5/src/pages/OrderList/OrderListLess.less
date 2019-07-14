@@ -1,0 +1,155 @@
+/**
+ * @(#)2019/7/1.
+ * 订单列表-样式部分
+ * @author 飞光
+ *
+ * Copyright (c) 2019, YUNXI. All rights reserved.
+ * YUNXI PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ */
+
+.order-list-box {
+  @navHeight: 80px;
+  margin-bottom: @navHeight;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(51, 51, 51);
+
+  .border-radius {
+    border-radius: 24px;
+  }
+
+  .order-header {
+    display: flex;
+    margin-bottom: 32px;
+
+    p {
+      overflow: hidden;
+      line-height: 32px;
+      white-space: nowrap;
+      color: rgb(0, 0, 0);
+      font-size: 28px;
+      display: inline-flex;
+      text-overflow: ellipsis;
+    }
+
+    .order-status {
+      margin-left: auto;
+      color: rgb(255, 80, 0);
+    }
+  }
+
+  .order-row {
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    padding: 24px 24px 24px;
+    .border-radius;
+
+    .base-header {
+      display: flex;
+
+      .img {
+        width: 180px;
+        height: 180px;
+        min-width: 180px;
+        margin-right: 24px;
+        border-radius: 6px;
+        display: inline-flex;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .product-info-detail {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        display: inline-flex;
+        color: rgb(51, 51, 51);
+
+        .product-title {
+          font-size: 28px;
+          line-height: 32px;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          text-overflow: ellipsis;
+          -webkit-box-orient: vertical;
+        }
+
+        .product-price-box {
+          font-size: 24px;
+          margin-left: auto;
+
+          p {
+            text-align: right;
+          }
+
+          .price {
+            font-size: 26px;
+          }
+
+          .number {
+            color: rgb(153, 153, 153);
+          }
+        }
+      }
+    }
+
+    .p-row {
+      height: 64px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-end;
+    }
+
+    .order-consignee {
+      .p-row;
+    }
+
+    .order-more-info {
+      .p-row;
+      align-items: center;
+
+      .order-time {
+        margin-right: auto;
+        height: 100%;
+        align-items: center;
+        display: inline-flex;
+
+        p {
+          font-size: 24px;
+          display: inline-flex;
+          height: 100%;
+          align-items: center;
+        }
+      }
+
+      .order-total-price {
+        p {
+          font-size: 24px;
+          overflow: hidden;
+          line-height: 28px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+
+          &:first-child {
+            margin-right: 24px;
+            color: rgb(153, 153, 153);
+          }
+        }
+      }
+
+      p {
+        display: inline-flex;
+      }
+    }
+  }
+
+  .order-row+.order-row {
+    margin-top: 40px;
+  }
+}

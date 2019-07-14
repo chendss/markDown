@@ -1,0 +1,29 @@
+/**
+ * @(#)2019/7/1.
+ * 首页-样式部分
+ * @author 飞光
+ *
+ * Copyright (c) 2019, YUNXI. All rights reserved.
+ * YUNXI PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ */
+
+// 其中assets文件夹已经做了webpack别名配置，不需要再使用../../访问，直接加个波浪线
+@import "~assets/css/common.less";
+
+.login-box {
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px 0 20px;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 80px;
+        justify-content: center;
+    }
+
+    .pwd {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

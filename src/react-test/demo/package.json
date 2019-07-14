@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"start": "npm install puppeteer --ignore-scripts"
+	},
+	"dependencies": {
+		"puppeteer": "^1.18.1",
+		"puppeteer-core": "^1.18.1"
+	}
+}
