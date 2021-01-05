@@ -104,7 +104,7 @@
   },
   "dependencies": {
     "antd-mobile": "^2.1.6",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "base-64": "^0.1.0",
     "dom-css": "^2.1.0",
     "es5-shim": "4.5.9",
